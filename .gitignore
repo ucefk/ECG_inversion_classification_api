@@ -161,3 +161,6 @@ cython_debug/
 
 # Poetry .lock files
 poetry.lock
+
+# Sample data for development
+sample_data/

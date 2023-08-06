@@ -28,3 +28,56 @@ coverage = "^7.2.7"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.run]
+omit=["tests/*", "data/*", "output/*"]
+
+
+[tool.black]
+line-length = 100
+
+[tool.pylint.design]
+max-args = 6  # Default: 5
+max-attributes = 15  # Default: 7
+max-bool-expr = 5
+max-branches = 12
+max-locals = 15
+max-parents = 7
+max-public-methods = 20
+max-returns = 6
+max-statements = 50
+min-public-methods = 0
+
+[tool.pylint.format]
+max-line-length = 100
+max-module-lines = 1000
+
+[tool.pylint.imports]
+allow-wildcard-with-all = true
+
+[tool.pylint."messages control"]
+disable = [
+    "raw-checker-failed",
+    "bad-inline-option",
+    "locally-disabled",
+    "file-ignored",
+    "suppressed-message",
+    "useless-suppression",
+    "deprecated-pragma",
+    "use-symbolic-message-instead",
+    "similarities",
+    "redefined-outer-name",
+    "import-error",
+    "missing-function-docstring",
+    "missing-class-docstring",
+    "missing-module-docstring",
+    "logging-fstring-interpolation",
+    "logging-not-lazy",
+    "fixme",
+    "invalid-name",
+    "consider-using-enumerate",
+    "unspecified-encoding",
+    "try-except-raise",
+    "raise-missing-from",
+    "consider-using-dict-items",
+]
