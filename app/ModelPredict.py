@@ -46,6 +46,6 @@ class ModelPredict:
         else:
             returned_dict["Inversion"] = "Inverted"
 
-        returned_dict["Prediction"] = ecg_inv_prediction[0]
+        returned_dict["Prediction"] = str(ecg_inv_prediction[0, 0])
 
         return returned_dict
