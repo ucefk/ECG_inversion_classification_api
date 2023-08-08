@@ -13,3 +13,13 @@ This project aims to create a method for detecting electrode inversion in ECGs u
 ## Inversions
 
 Electrode inversions can involve more than just the inversion of two leads. For example, in the precordial leads (V1, ..., V6), the inversion can occur differently, where V1 becomes V6 and V2 becomes V5, and so on. Moreover, when certain pairs of electrodes are exchanged, it affects multiple leads such as I, II, III, AVF, AVR, and AVL differently. For instance, if the electrodes of the right and left arms are inverted, then I becomes -I, II and III are inverted, AVL and AVR are inverted, while AVF remains unchanged. More information about the relationships between different leads and how they are affected by inversion can be found here: <https://litfl.com/ecg-limb-lead-reversal-ecg-library/>
+
+## App demo
+
+### Correctly realized ECG
+
+![Correctly realized ECG](docs/demo_correct.gif)
+
+### Inverted ECG
+
+![Inverted ECG](docs/demo_inverted.gif)
