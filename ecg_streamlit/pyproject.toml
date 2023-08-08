@@ -10,6 +10,7 @@ packages = [{include = "ecg_streamlit"}]
 [tool.poetry.dependencies]
 python = "~3.9.16"
 streamlit = "^1.25.0"
+matplotlib = "^3.7.2"
 
 
 [build-system]
