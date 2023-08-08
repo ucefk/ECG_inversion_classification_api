@@ -164,3 +164,4 @@ poetry.lock
 
 # Sample data for development
 sample_data/
+ecg_streamlit/tmp/
