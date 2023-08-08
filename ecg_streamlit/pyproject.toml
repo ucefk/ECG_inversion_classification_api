@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ecg-streamlit"
+version = "0.1.0"
+description = "Streamlit UI for ECG inversion classification."
+authors = ["Youcef Kharroubi <ucef.kharroubi@gmail.com>"]
+license = "MIT Licence."
+readme = "README.md"
+packages = [{include = "ecg_streamlit"}]
+
+[tool.poetry.dependencies]
+python = "~3.9.16"
+streamlit = "^1.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
