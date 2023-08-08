@@ -18,8 +18,10 @@ Electrode inversions can involve more than just the inversion of two leads. For 
 
 ### Correctly realized ECG
 
-![Correctly realized ECG](docs/demo_correct.gif)
+<img src="docs/demo_correct.gif" alt="Correctly realized ECG" width="500"/>
+<!-- ![Correctly realized ECG](docs/demo_correct.gif) -->
 
 ### Inverted ECG
 
-![Inverted ECG](docs/demo_inverted.gif)
+<img src="docs/demo_inverted.gif" alt="Inverted ECG" width="500"/>
+<!-- ![Inverted ECG](docs/demo_inverted.gif) -->
